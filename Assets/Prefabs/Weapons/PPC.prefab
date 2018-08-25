@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1280378219299786}
+  m_IsPrefabParent: 1
+--- !u!1 &1280378219299786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4312734704849188}
+  - component: {fileID: 114170409155408280}
+  m_Layer: 0
+  m_Name: PPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4312734704849188
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280378219299786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.45, z: 2.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114170409155408280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280378219299786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289cee661d4717142823b05b1fd57966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: projectile
+  shellsPerShot: 1
+  weaponPrefab: {fileID: 1293301174019592, guid: c5efcd935a67ae74fabb003ab86a1288,
+    type: 2}
+  particleEffect: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9,
+    type: 2}
+  muzzleFlash: {fileID: 1695866465205024, guid: 25664a60a1947b945ba31e8adb3a5b01,
+    type: 2}
+  weaponRange: 500
+  weaponDamage: 20
+  weaponPenetration: 1.5
+  weaponProjectileSpeed: 300
+  weaponHeat: 10
+  weaponCooldown: 5
+  weaponChargeFloat: 0.45
+  weaponChargeUp: WEAPON_PPC_CHARGE
+  weaponShootSound: WEAPON_PPC
+  weaponHitSound:
+  - PPC_IMPACT
+  ammoCount: 0
+  ammoReplenishmentTimer: 60
+  weaponRandomSpread: 0
+  weaponRandomOffsetXY: 0
+  burstTimer: 0.1
+  oldBurstTimer: 0
+  shellCount: 1
+  oldShellCount: 0

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechFight", "MechFight.csproj", "{9EAFE1B5-5287-5BE4-BFE8-D4A5110AD4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechFight.Editor", "MechFight.Editor.csproj", "{5D5C1A76-9457-B51D-88CB-C84296DE9F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAFE1B5-5287-5BE4-BFE8-D4A5110AD4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAFE1B5-5287-5BE4-BFE8-D4A5110AD4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAFE1B5-5287-5BE4-BFE8-D4A5110AD4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAFE1B5-5287-5BE4-BFE8-D4A5110AD4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5C1A76-9457-B51D-88CB-C84296DE9F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5C1A76-9457-B51D-88CB-C84296DE9F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5C1A76-9457-B51D-88CB-C84296DE9F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5C1A76-9457-B51D-88CB-C84296DE9F36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

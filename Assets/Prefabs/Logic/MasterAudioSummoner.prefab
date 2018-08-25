@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1095470512905568}
+  m_IsPrefabParent: 1
+--- !u!1 &1095470512905568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4539480161788952}
+  - component: {fileID: 114174880734102208}
+  m_Layer: 0
+  m_Name: MasterAudioSummoner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4539480161788952
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095470512905568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114174880734102208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095470512905568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cfa78fcc03e2e4ab5ed29e3349d91a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioObject: {fileID: 1111026158604062, guid: 79ac56b73f5276447b49a5564119a200,
+    type: 2}
+  mechAudioFiles:
+  - {fileID: 8300000, guid: a68be86b7804c3346a687f267e3c2722, type: 3}
+  - {fileID: 8300000, guid: a20cebcd183799b4a9499bbcb133e2bd, type: 3}
+  - {fileID: 8300000, guid: 53b85da72df870845946cca1d8dd91b0, type: 3}
+  - {fileID: 8300000, guid: 0265526e90f292142926d701ef8204ed, type: 3}
+  - {fileID: 8300000, guid: 771ec2001e5bcf54d9e074ebccd159c8, type: 3}
+  - {fileID: 8300000, guid: e123d0a52dfb28142b663d3be1553661, type: 3}
+  - {fileID: 8300000, guid: 7348cb73d40e5e14cb3f3a76ad1b8439, type: 3}
+  weaponAudioFiles:
+  - {fileID: 8300000, guid: 53bbdd5b173bbc34a9acf6e1f84d8c96, type: 3}
+  - {fileID: 8300000, guid: 7d8f29c918c2add4585f4dcc825429b2, type: 3}
+  - {fileID: 8300000, guid: 7fef50679ebb9424da141d76d8b400cd, type: 3}
+  - {fileID: 8300000, guid: 5cdfdd028f9609c4a9f5090eb5098f9c, type: 3}
+  - {fileID: 8300000, guid: 48de036e1a00a774faa18986ff3c4cb1, type: 3}
+  explosionAudioFiles:
+  - {fileID: 8300000, guid: 092f79c0e032bc24192496a34cf4b1ea, type: 3}
+  - {fileID: 8300000, guid: 19df0a39f5836f94bbb0fd98587e74d2, type: 3}
+  - {fileID: 8300000, guid: 72a4ee9cca624ae4ba6dad3e53c5468e, type: 3}
+  - {fileID: 8300000, guid: 0ed53c5785473c74eb7048d55103523d, type: 3}
+  - {fileID: 8300000, guid: b5c49c90e52e31f4a9bbcc83156a127b, type: 3}
+  - {fileID: 8300000, guid: 28c396c83f3178c4c9336234fd010cc0, type: 3}
+  - {fileID: 8300000, guid: a71c8b864690d784db1acc718614f895, type: 3}
+  - {fileID: 8300000, guid: f914b34693b560a4aa1872a365813f81, type: 3}
+  - {fileID: 8300000, guid: 2ac3ca5d4e53e6b46a0546d6e1c24839, type: 3}
+  - {fileID: 8300000, guid: f7d40e8262f2d9642b9b6540a5c6d7a4, type: 3}
+  - {fileID: 8300000, guid: 5555b8487f9324442b38b9528918cb41, type: 3}
+  - {fileID: 8300000, guid: 163994e3712e7094188025de3ae004e9, type: 3}
+  - {fileID: 8300000, guid: 868b3593734909940bdbe6d6213d206c, type: 3}
+  - {fileID: 8300000, guid: 2f5918cbe0bd8534fb9e14af2b4ecb29, type: 3}
+  - {fileID: 8300000, guid: 0e4fafb72bb9e204092e100e20d898a6, type: 3}
+  - {fileID: 8300000, guid: 9ca1ca91e02ede7448e9b4b8eef0d24f, type: 3}
+  - {fileID: 8300000, guid: 4a1581263a1747d40a12fc6acb8805cb, type: 3}
+  - {fileID: 8300000, guid: 43d806651f9cba74886d33c60e1a4a4d, type: 3}
+  - {fileID: 8300000, guid: 43d1ff9c1d11ffb49a861d228311a67f, type: 3}
+  - {fileID: 8300000, guid: e123d0a52dfb28142b663d3be1553661, type: 3}
+  - {fileID: 8300000, guid: d7fe461f6ca39834f81ac03c536eeee9, type: 3}
+  - {fileID: 0}
+  bettySounds:
+  - {fileID: 8300000, guid: ba4e269ddfc587e47bdae67c230b37d4, type: 3}
+  - {fileID: 8300000, guid: 7c0939ec37fcfc34dafde6c1ca045447, type: 3}
+  - {fileID: 8300000, guid: 5b3fd5ec5be930a45b189afe6d170b83, type: 3}
+  - {fileID: 8300000, guid: 18a6596e29eaff64e9d7ad826c353792, type: 3}
+  - {fileID: 8300000, guid: 1c30a5f0e0db1ed4cb069f65fb775ad6, type: 3}
+  - {fileID: 8300000, guid: 7050b5f6708aaab4c89fff86e9d6c3a7, type: 3}
+  - {fileID: 8300000, guid: db9c3df07a8db0044b25d9bd403b5db5, type: 3}
+  - {fileID: 8300000, guid: 5f1d757c0a9a3ee4db1d1543bcf115b7, type: 3}
+  - {fileID: 8300000, guid: 9f90857e0ca08424c967a0838a394aee, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  criticalHit: {fileID: 8300000, guid: ba4e269ddfc587e47bdae67c230b37d4, type: 3}
